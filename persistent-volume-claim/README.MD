@@ -1,0 +1,1 @@
+Bu dizindeki yaml dosyaları kullanılarak NFS server kurulumu yapılmış bir sunucu üzerinden persistent volume'lar oluşturarak kullanabiliriz. Öncesinde nfs server kurulumu yapılmalı, ilgili sunucudan paylaşılacak dizin export edilmeli ve kullanacak sunucular üzerinde nfs-client kurulumları yapılmış olmalıdır.
