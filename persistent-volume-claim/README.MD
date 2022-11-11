@@ -1,4 +1,4 @@
-# STORAGE CLASS - PERSISTENT VOLUME CLAIM - PERSISTENT VOLUME OLUSTURMA
+### STORAGE CLASS - PERSISTENT VOLUME CLAIM - PERSISTENT VOLUME OLUSTURMA
 
 - rbac.yaml ==> provisioner pod için yapılacak yetkilendirmeler (sa,role,rolebindings)
 - nfs_class.yaml ==> storage class
