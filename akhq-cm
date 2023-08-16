@@ -1,0 +1,19 @@
+apiVersion: v1
+data:
+  application.yml
+    micronaut:
+      security:
+        enabled: true
+    
+    akhq:
+      connections:
+        prod:
+          properties:
+            bootstrap.servers: "kafkanode1:9092,kafkanode2:9092,kafkanode3:9092"
+      security:
+        default-group: no-roles
+        basic-auth:
+          - username: admin
+            password: 
+            groups:
+              - admin
